@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Picture1</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 100%;
+            margin: auto;
+        }
+        .wrap-content {
+            position: relative;
+            width: 185px;
+            height: 188px;
+            background: #F2994A;
+        }
+        .box {
+            position: absolute;
+            width: 77px;
+            height: 77px;
+            border-radius: 50%;
+        }
+        .box-1 {
+            top: 0;
+            left: 0;
+            background: #EB5757;
+        }
+        .box-2 {
+            top: 0;
+            right: 0;
+            background: #9B51E0;
+        }
+        .box-3 {
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: #219653;
+        }
+        .box-4 {
+            left: 0;
+            bottom: 0;
+            background: #9B51E0;
+        }
+        .box-5 {
+            right: 0;
+            bottom: 0;
+            background: #EB5757;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="wrap-content">
+        <div class="box box-1"></div>
+        <div class="box box-2"></div>
+        <div class="box box-3"></div>
+        <div class="box box-4"></div>
+        <div class="box box-5"></div>
+    </div>
+</div>
+</body>
+</html>

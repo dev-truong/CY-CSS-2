@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Picture1</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 100%;
+      margin: auto;
+      background: #e5e5e5;
+    }
+    .wrap-content {
+      width: 1304px;
+      height: 794px;
+      border-radius: 44px;
+      border: 4px solid #8CC5F9;
+      background: #FFFFFF;
+      position: relative;
+      padding: 50px;
+      display: flex;
+      gap: 58px;
+    }
+    .profile-picture {
+      width: 586px;
+      height: 694px;
+    }
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 44px;
+    }
+    .close-button {
+      position: absolute;
+      top: 24px;
+      right: 24px;
+      width: 43px;
+      height: 43px;
+    }
+    .profile-name {
+      font-family: "Rubik", sans-serif;
+      font-size: 44px;
+      font-style: italic;
+      font-weight: 700;
+      color: #8CC5F9;
+      margin-bottom: 24px;
+    }
+    .profile-description {
+      font-family: "Rubik", sans-serif;
+      font-size: 32px;
+      font-weight: 400;
+      color: #08090A;
+      margin-bottom: 72px;
+    }
+    .icon {
+      margin-bottom: 60px;
+      display: flex;
+      gap: 12px;
+    }
+    .quora {
+      font-family: "Rubik", sans-serif;
+      font-size: 32px;
+      font-style: italic;
+      font-weight: 300;
+      line-height: 37.92px;
+      color: #878ABC;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="wrap-content">
+    <div class="col-1">
+    <div class="profile-picture">
+      <img src="assests/img.png" alt="picture">
+    </div>
+    </div>
+    <div class="col-2">
+    <div class="close-button">
+      <svg width="43" height="43" viewBox="0 0 43 43" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M6.71875 6.71875L21.5 21.5L6.71875 36.2812" stroke="#8CC5F9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M36.2812 36.2813L21.5 21.5L36.2812 6.71875" stroke="#8CC5F9" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
+    <div class="profile-name">Rot Mitt</div>
+    <div class="profile-description">
+      <p>
+        Consequuntur est accusantium et nemo. Similique quo atque ut eligendi aspernatur modi ut nemo dolorem.
+      </p>
+      <br>
+      <p>
+        Quod suscipit et sapiente et explicabo itaque molestiae laudantium architecto.
+      </p>
+    </div>
+    <div class="icon">
+      <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M20 40C31.0457 40 40 31.0457 40 20C40 8.9543 31.0457 0 20 0C8.9543 0 0 8.9543 0 20C0 31.0457 8.9543 40 20 40ZM10.7884 14.2675C10.8409 14.3962 10.8606 14.5348 10.8459 14.672V24.6932C10.8781 24.8714 10.8654 25.0543 10.809 25.2271C10.7525 25.3999 10.6538 25.5577 10.5209 25.6878L8 28.5768V28.9576H15.1483V28.5767L12.6274 25.6878C12.4934 25.5578 12.3925 25.4007 12.3323 25.2283C12.2721 25.056 12.2543 24.873 12.2801 24.6932V16.0265L18.5545 28.9576H19.2829L24.6723 16.0265V26.3334C24.6723 26.6084 24.6723 26.6612 24.4818 26.8412L22.5435 28.6191V29H31.9551V28.6191L30.084 26.8836C30.003 26.8253 29.9403 26.7471 29.9028 26.6576C29.8653 26.5681 29.8544 26.4706 29.8711 26.3756V13.6244C29.8544 13.5294 29.8653 13.4319 29.9028 13.3424C29.9403 13.2529 30.003 13.1747 30.084 13.1164L32 11.3809V11H25.367L20.6385 22.1429L15.2605 11H8.30229V11.3808L10.5435 13.9312C10.6519 14.0236 10.7358 14.1388 10.7884 14.2675Z"
+              fill="#8CC5F9" />
+      </svg>
+      <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M20 40C31.0457 40 40 31.0457 40 20C40 8.9543 31.0457 0 20 0C8.9543 0 0 8.9543 0 20C0 31.0457 8.9543 40 20 40ZM15.0529 8.07267C13.7754 8.13085 12.9024 8.33341 12.1401 8.63005C11.3505 8.93638 10.6822 9.34736 10.0143 10.0142C9.34636 10.681 8.93642 11.3504 8.63007 12.1399C8.33342 12.9027 8.13085 13.7752 8.07268 15.0526C8.01354 16.3321 8 16.7412 8 20C8 23.2588 8.01354 23.6679 8.07268 24.9474C8.13085 26.2249 8.33342 27.0973 8.63007 27.8601C8.93642 28.6491 9.34645 29.3193 10.0143 29.9858C10.6821 30.6524 11.3505 31.0628 12.1401 31.37C12.9039 31.6666 13.7754 31.8692 15.0529 31.9273C16.3331 31.9855 16.7415 32 20.0005 32C23.2594 32 23.6685 31.9865 24.948 31.9273C26.2257 31.8692 27.098 31.6666 27.8609 31.37C28.6499 31.0628 29.3188 30.6526 29.9867 29.9858C30.6546 29.319 31.0637 28.6491 31.3709 27.8601C31.6675 27.0973 31.8711 26.2248 31.9283 24.9474C31.9865 23.6669 32 23.2588 32 20C32 16.7412 31.9865 16.3321 31.9283 15.0526C31.8701 13.7751 31.6675 12.9022 31.3709 12.1399C31.0637 11.3509 30.6535 10.682 29.9867 10.0142C29.3199 9.3463 28.6499 8.93638 27.8619 8.63005C27.098 8.33341 26.2256 8.12989 24.949 8.07267C23.6695 8.0145 23.2604 8 20.0014 8C16.7425 8 16.3331 8.01354 15.0529 8.07267ZM15 20C15 17.2388 17.238 15 19.9993 15C22.7608 15 25 17.2391 25 20C25 22.7609 22.7608 25 19.9993 25C17.238 25 15 22.7612 15 20ZM19.9993 13C16.1331 13 13 16.1346 13 20C13 23.8654 16.1331 27 19.9993 27C23.8652 27 27 23.8657 27 20C27 16.1343 23.8652 13 19.9993 13ZM29 12.5C29 13.3284 28.3284 14 27.5 14C26.6716 14 26 13.3284 26 12.5C26 11.6716 26.6716 11 27.5 11C28.3284 11 29 11.6716 29 12.5Z"
+              fill="#8CC5F9" />
+      </svg>
+      <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M20 40C31.0457 40 40 31.0457 40 20C40 8.9543 31.0457 0 20 0C8.9543 0 0 8.9543 0 20C0 31.0457 8.9543 40 20 40ZM32.8769 31.216V31.217H27.9119V23.416C27.9119 21.557 27.8739 19.173 25.3249 19.173C22.7379 19.173 22.3419 21.193 22.3419 23.282V31.216H17.3719V15.193H22.1449V17.378H22.2149C22.8779 16.119 24.5019 14.791 26.9219 14.791C31.9559 14.791 32.8829 18.108 32.8829 22.414V31.216H32.8769ZM9.396 15.1943H14.372V31.2173H9.396V15.1943ZM9 9.882C9 8.291 10.291 7 11.882 7C13.472 7 14.763 8.291 14.764 9.882C14.764 11.473 13.473 12.791 11.882 12.791C10.291 12.791 9 11.473 9 9.882Z"
+              fill="#8CC5F9" />
+      </svg>
+    </div>
+    <div class="quora">
+      “Consequuntur est accusantium et nemo. Similique quo atque ut eligendi”
+    </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
